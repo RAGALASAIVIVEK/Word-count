@@ -25,15 +25,17 @@ end the program
 ## PROGRAM:
 ```
 '''
-Developed by:KUSHALI P G
-Registered number: 212223230110
+Developed by:sai vivek.R
+Registered number: 23003676
 '''
-num_words=0
-with open('text.txt','r') as f1:
+num=0
+with open("filel.txt","r") as f1:
     for i in f1:
         word=i.split()
-        num_words += len(word)
-print("Number of words in the file = {}".format(num_words))
+        num += len(word)
+print("The number of words are in the file is ",num)
+
+'''
 ```
 
 ### OUTPUT:
